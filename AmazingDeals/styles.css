@@ -1,0 +1,20 @@
+#header {
+    padding: 20px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+
+#subscribe form {
+    text-align: center
+}
+
+.deals {
+    text-align: center
+}
+
+.deal {
+    text-align: left;
+    background-color: aqua;
+}
