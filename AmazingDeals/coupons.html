@@ -6,7 +6,7 @@
         <title>JWO Connect</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     </head>
-    <body onload="addPromotions()">
+    <body onload="addCoupons()">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">JWO Connect (Madison Square)</a>
@@ -39,7 +39,7 @@
             </div>
         </nav>
 
-        <ul id="promotions" class="list-group"></ul>
+        <ul id="coupons" class="list-group"></ul>
 
         <!-- Subscription Modal -->
         <div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -77,102 +77,9 @@
         <script type="application/javascript" src="jquery-3.7.1.min.js"></script>
 
         <script>
-            function addPromotions() {
-                var promoElement = $("#promotions");
-
-                for (index in promotions) {
-                    var promo = promotions[index];
-                    var promoRow = "<td class=\"list-group-item\"><h4>" + promo.title + "</h4>" + "<p>" + promo.description + "</p></td>";
-                    promoElement.append(promoRow);
-                }
+            function addCoupons() {
+                
             }
-
-            var promotions = [
-                {
-                    title: "10% off on Donuts!",
-                    description: "Enjoy 10% off on Donuts when you buy 2 or more."
-                },
-                {
-                    title: "5% off on Protein Bars!",
-                    description: "Enjoy 5% off on Protein Bars when you buy 2 or more."
-                },
-                {
-                    title: "$2 off on Beer!",
-                    description: "Enjoy $2 off on Beer when you buy 2 or more."
-                },
-                {
-                    title: "10% off on Donuts!",
-                    description: "Enjoy 10% off on Donuts when you buy 2 or more."
-                },
-                {
-                    title: "5% off on Protein Bars!",
-                    description: "Enjoy 5% off on Protein Bars when you buy 2 or more."
-                },
-                {
-                    title: "$2 off on Beer!",
-                    description: "Enjoy $2 off on Beer when you buy 2 or more."
-                },
-                {
-                    title: "10% off on Donuts!",
-                    description: "Enjoy 10% off on Donuts when you buy 2 or more."
-                },
-                {
-                    title: "5% off on Protein Bars!",
-                    description: "Enjoy 5% off on Protein Bars when you buy 2 or more."
-                },
-                {
-                    title: "$2 off on Beer!",
-                    description: "Enjoy $2 off on Beer when you buy 2 or more."
-                },
-                {
-                    title: "10% off on Donuts!",
-                    description: "Enjoy 10% off on Donuts when you buy 2 or more."
-                },
-                {
-                    title: "5% off on Protein Bars!",
-                    description: "Enjoy 5% off on Protein Bars when you buy 2 or more."
-                },
-                {
-                    title: "$2 off on Beer!",
-                    description: "Enjoy $2 off on Beer when you buy 2 or more."
-                },
-                {
-                    title: "10% off on Donuts!",
-                    description: "Enjoy 10% off on Donuts when you buy 2 or more."
-                },
-                {
-                    title: "5% off on Protein Bars!",
-                    description: "Enjoy 5% off on Protein Bars when you buy 2 or more."
-                },
-                {
-                    title: "$2 off on Beer!",
-                    description: "Enjoy $2 off on Beer when you buy 2 or more."
-                },
-                {
-                    title: "10% off on Donuts!",
-                    description: "Enjoy 10% off on Donuts when you buy 2 or more."
-                },
-                {
-                    title: "5% off on Protein Bars!",
-                    description: "Enjoy 5% off on Protein Bars when you buy 2 or more."
-                },
-                {
-                    title: "$2 off on Beer!",
-                    description: "Enjoy $2 off on Beer when you buy 2 or more."
-                },
-                {
-                    title: "10% off on Donuts!",
-                    description: "Enjoy 10% off on Donuts when you buy 2 or more."
-                },
-                {
-                    title: "5% off on Protein Bars!",
-                    description: "Enjoy 5% off on Protein Bars when you buy 2 or more."
-                },
-                {
-                    title: "$2 off on Beer!",
-                    description: "Enjoy $2 off on Beer when you buy 2 or more."
-                }
-            ]
         </script>
     </body>
 </html>
