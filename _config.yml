@@ -28,9 +28,12 @@ url: "https://www.manishkumar.page" # the base hostname & protocol for your site
   # github_username:  jekyll
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+
+# Minimal Mistakes theme settings
+minimal_mistakes_skin: "dark"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
