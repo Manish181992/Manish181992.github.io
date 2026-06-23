@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Your Friendly Neighbourhood Software Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.manishkumar.page" # the base hostname & protocol for your site, e.g. http://example.com
-  # twitter_username: jekyllrb
-  # github_username:  jekyll
+twitter_username: ""
+github_username:  "Manish181992"
 
 # Build settings
 theme: minimal-mistakes-jekyll
@@ -34,6 +34,31 @@ plugins:
 
 # Minimal Mistakes theme settings
 minimal_mistakes_skin: "dark"
+
+# Author settings
+author:
+  name: "Manish Kumar"
+  picture: ""
+  github: "https://github.com/Manish181992"
+
+# Front matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author: "manish"
+      author_profile: true
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author: "manish"
+      author_profile: true
 
 include:
   - _pages
