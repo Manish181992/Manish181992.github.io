@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: Base64 Encoder-Decoder
-permalink: /toolchest/base64
+permalink: /toolchest/base64/
 ---
 
 <div class="toolarea">
@@ -30,7 +30,7 @@ permalink: /toolchest/base64
         gap: 20px !important;
         padding: 20px !important;
         box-sizing: border-box !important;
-        height: 70vh !important;
+        height: 60vh !important;
         width: 100% !important;
     }
 
@@ -99,8 +99,8 @@ permalink: /toolchest/base64
 
       #plaintext, #encodedText {
         flex: none !important;
-        height: 280px !important;
-        min-height: 280px !important;
+        height: 20vh !important;
+        min-height: 20vh !important;
       }
 
       .controls {
