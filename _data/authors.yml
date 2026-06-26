@@ -2,10 +2,8 @@ manish:
     name: ""
     bio: "Your Friendly Neighborhood Software Developer."
     avatar: "assets/images/bio_pic_mk.jpeg"
+    location: "Seattle, WA"
     links:
-     - label: "manish181992[at]gmail.com"
-       icon: "fas fa-fw fa-square-envelope"
-       url: "mailto:manish181992@gmail.com"
      - label: "LinkedIn"
        icon: "fab fa-fw fa-linkedin"
        url: "https://www.linkedin.com/in/manish181992/"
